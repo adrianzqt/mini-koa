@@ -1,12 +1,25 @@
 # mini-koa
 
-精简版本的koa，帮助理解核心思想
+> A concise implementation of Koa, for better and easier understanding.
 
-## 代码结构
+## Code Structure
 
-- koa
-  - lib
-    - application.js
-    - context.js
-    - request.js
-    - response.js
+```
+└── mini-koa
+    ├── lib
+    │   ├── application.js
+    │   ├── context.js
+    │   ├── request.js
+    │   └── response.js
+    ├── tool
+    │   ├── compose.js
+    │   └── delegator.js
+    ├── demo.js
+    ├── index.js
+    ├── package.json
+    └── README.md
+```
+
+## Core Conceptions
+
+1. Koa is a light-weight http server base on Node.js http module.
